@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'">
+  <title>Electron File Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Electron File Explorer</h1>
+    <p class="author">Ахмедханов Магомедхан Русланович, группа ТРПО23-2 · вариант 1</p>
+  </header>
+  <div class="toolbar">
+    <button id="btn-list">Показать содержимое каталога</button>
+    <button id="btn-choose">Выбрать каталог…</button>
+  </div>
+  <p id="current" class="current">Каталог не выбран</p>
+  <ul id="list"></ul>
+  <script src="renderer.js"></script>
+</body>
+</html>

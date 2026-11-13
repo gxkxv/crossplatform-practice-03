@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", "DejaVu Sans", sans-serif; background: #f4f6fa; color: #1f2933; }
+header { background: #2b4c7e; color: #fff; padding: 14px 24px; }
+header h1 { margin: 0; font-size: 22px; }
+.author { margin: 4px 0 0; font-size: 13px; opacity: .85; }
+.toolbar { display: flex; gap: 10px; padding: 16px 24px 8px; }
+button { padding: 8px 16px; font-size: 14px; border: none; border-radius: 6px; background: #2b4c7e; color: #fff; cursor: pointer; }
+button:hover { background: #1d3557; }
+#btn-choose { background: #3d8b5f; }
+#btn-choose:hover { background: #2e6b49; }
+.current { margin: 4px 24px 8px; font-size: 13px; color: #52606d; word-break: break-all; }
+#list { list-style: none; margin: 0 24px 24px; padding: 0; background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.12); max-height: 380px; overflow-y: auto; }
+#list li { padding: 7px 14px; border-bottom: 1px solid #edf0f4; font-size: 14px; }
+#list li:last-child { border-bottom: none; }
+#list li.dir { font-weight: 600; color: #2b4c7e; }
+#list li .icon { display: inline-block; width: 24px; }
+#list li.empty, #list li.error { color: #9aa5b1; font-style: italic; }
+#list li.error { color: #c0392b; }
